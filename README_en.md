@@ -3,20 +3,19 @@
 ![PyPI - Downloads](https://img.shields.io/pypi/dw/flet-blurhash)
 ![PyPI - Version](https://img.shields.io/pypi/v/flet-blurhash)
 
-
-#### [en_translate](README_en.md)
-
-**flet-blurhash** adalah implementasi **BlurHash untuk Flet**, terinspirasi dari **BlurHash di Flutter**.
-Library ini memungkinkan kamu menampilkan **placeholder blur** sebelum gambar asli selesai dimuat, sehingga UI terasa lebih halus dan profesional.
+#### [id_translate](README.md)
 
 
-## ✨ Fitur Utama
+**flet-blurhash** is a **BlurHash implementation for Flet**, inspired by **BlurHash in Flutter**.
+This library allows you to display **blurred placeholders** before the actual image finishes loading, making your UI feel smoother and more professional.
 
-* 🚀 **BlurHash rendering cepat**
-* 🖼️ Menampilkan placeholder sebelum image selesai load
-* ⏳ Animasi transisi ke gambar asli
-* 🔌 Terintegrasi langsung dengan **Flet custom control**
-* 💙 API simpel & mirip konsep Flutter
+## ✨ Key Features
+
+* 🚀 **Fast BlurHash rendering**
+* 🖼️ Displays placeholders while images are loading
+* ⏳ Smooth transition animations to the original image
+* 🔌 Seamlessly integrated as a **Flet custom control**
+* 💙 Simple API, following Flutter-like concepts
 * 🖥️ Support multi-platform:
     Android 🟢
     Linux 🟢
@@ -24,9 +23,7 @@ Library ini memungkinkan kamu menampilkan **placeholder blur** sebelum gambar as
     macOS 🟡
     Web 🟢
 
-  
-
-## 📦 Instalasi
+## 📦 Installation
 
 ```bash
 uv add flet-blurhash
@@ -38,13 +35,12 @@ uv add flet-blurhash
 * **Flet** `0.80.0`
 
 > [!WARNING]
-> ⚠️ Library ini tidak kompatibel dengan Python versi di bawah `3.12` atau Flet versi selain `0.80.0`.
+> ⚠️ This library is not compatible with Python versions below `3.12` or Flet versions other than `0.80.0`.
 
-
-## 🚀 Contoh Penggunaan
+## 🚀 Usage Example
 
 > [!NOTE]
-> Kamu bisa mendapatkan hash dari web ini [blura](https://blurha.sh/)
+> You can generate hashes from [blurha.sh](https://blurha.sh/)
 
 ```python
 import flet as ft
@@ -70,6 +66,7 @@ def main(page: ft.Page):
     )
 
 ft.run(main)
+
 ```
 
-<p align="center">Semoga project ini bermanfaat 🥰</p>
+<p align="center">Hope this project is useful for you! 🥰</p>
