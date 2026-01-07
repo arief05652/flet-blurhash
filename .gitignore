@@ -1,0 +1,4 @@
+build/
+.venv/
+
+src/flet_blurhash.egg-info/
