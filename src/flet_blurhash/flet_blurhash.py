@@ -27,6 +27,18 @@ class BlurHashOptimizationMode(Enum):
 class FletBlurHash(ft.LayoutControl):
     """
     You can display images smoothly with this class.
+
+    Example:
+        ```python
+        FletBlurHash(
+            hash="LKO2:N%2Tw=w]~RBVZRi};RPxuwH",
+            image="https://fastly.picsum.photos/id/21/3008/2008.jpg?hmac=T8DSVNvP-QldCew7WD4jj_S3mWwxZPqdF0CNPksSko4",
+            duration=ft.Duration(seconds=3),
+            on_display=display,
+            curve=ft.AnimationCurve.BOUNCE_IN,
+            optimization_mode=BlurHashOptimizationMode.APPROXIMATION,
+        )
+        ```
     """
 
     hash: str
