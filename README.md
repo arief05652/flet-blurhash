@@ -18,13 +18,11 @@ Library ini memungkinkan kamu menampilkan **placeholder blur** sebelum gambar as
 * 🔌 Terintegrasi langsung dengan **Flet custom control**
 * 💙 API simpel & mirip konsep Flutter
 * 🖥️ Support multi-platform:
-    Android 🟢
-    Linux 🟢
-    Windows 🟡
-    macOS 🟡
-    Web 🟢
-
-  
+    * Android 🟢
+    * Linux 🟢
+    * Windows (untested)
+    * macOS (untested)
+    * Web 🟢
 
 ## 📦 Instalasi
 
@@ -44,7 +42,7 @@ uv add flet-blurhash
 ## 🚀 Contoh Penggunaan
 
 > [!NOTE]
-> Kamu bisa mendapatkan hash dari web ini [blura](https://blurha.sh/)
+> Kamu bisa mendapatkan hash dari web ini [blura.sh](https://blurha.sh/)
 
 ```python
 import flet as ft
@@ -71,5 +69,12 @@ def main(page: ft.Page):
 
 ft.run(main)
 ```
+
+## 📺️ What you get
+
+<video src="assets/sreen.mp4" width="400" height=200 autoplay loop muted controls>
+  video
+</video>
+
 
 <p align="center">Semoga project ini bermanfaat 🥰</p>

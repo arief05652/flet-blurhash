@@ -17,11 +17,12 @@ This library allows you to display **blurred placeholders** before the actual im
 * 🔌 Seamlessly integrated as a **Flet custom control**
 * 💙 Simple API, following Flutter-like concepts
 * 🖥️ Support multi-platform:
-    Android 🟢
-    Linux 🟢
-    Windows 🟡
-    macOS 🟡
-    Web 🟢
+    * Android 🟢
+    * Linux 🟢
+    * Windows (untested)
+    * macOS (untested)
+    * Web 🟢
+
 
 ## 📦 Installation
 
@@ -66,7 +67,13 @@ def main(page: ft.Page):
     )
 
 ft.run(main)
-
 ```
+
+## 📺️ What you get
+
+<video src="assets/sreen.mp4" width="400" height=200 autoplay loop muted controls>
+  video
+</video>
+
 
 <p align="center">Hope this project is useful for you! 🥰</p>
