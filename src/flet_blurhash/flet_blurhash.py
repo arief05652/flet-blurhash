@@ -1,6 +1,5 @@
 from dataclasses import field
 from enum import Enum
-from typing import Optional
 
 import flet as ft
 
@@ -51,16 +50,16 @@ class FletBlurHash(ft.LayoutControl):
     duration: ft.DurationValue = field(
         default_factory=lambda: ft.Duration(milliseconds=1000)
     )
-    curve: ft.AnimationCurve = field(default_factory=lambda: ft.AnimationCurve.EASE_OUT)
+    curve: ft.AnimationCurve = ft.AnimationCurve.EASE_OUT
     optimization_mode: BlurHashOptimizationMode = BlurHashOptimizationMode.NONE
-    image: Optional[str] = None
+    image: str | None = None
     """
-    enter the link of the image you want to display
+    Enter the link of the image you want to display.
     """
 
-    on_decode: Optional[ft.ControlEventHandler["FletBlurHash"]] = None
-    on_display: Optional[ft.ControlEventHandler["FletBlurHash"]] = None
-    on_ready: Optional[ft.ControlEventHandler["FletBlurHash"]] = None
-    on_start: Optional[ft.ControlEventHandler["FletBlurHash"]] = None
+    on_decode: ft.ControlEventHandler["FletBlurHash"] | None = None
+    on_display: ft.ControlEventHandler["FletBlurHash"] | None = None
+    on_ready: ft.ControlEventHandler["FletBlurHash"] | None = None
+    on_start: ft.ControlEventHandler["FletBlurHash"] | None = None
     # error
-    error_content: Optional[ft.Control] = None
+    error_content: ft.Control | None = None

@@ -1,6 +1,3 @@
-from .flet_blurhash import FletBlurHash, BlurHashOptimizationMode
+from .flet_blurhash import BlurHashOptimizationMode, FletBlurHash
 
-
-__all__ = ["FletBlurHash", "BlurHashOptimizationMode"]
-
-
+__all__ = ["BlurHashOptimizationMode", "FletBlurHash"]

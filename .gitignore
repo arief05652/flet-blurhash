@@ -1,4 +1,8 @@
 build/
 .venv/
+__pycache__/
+.pytest_cache/
 
 src/flet_blurhash.egg-info/
+
+graphify-out/
